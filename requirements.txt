@@ -1,0 +1,52 @@
+# ----------------------------
+# LLM / AI Training
+# ----------------------------
+torch
+torchvision
+torchaudio
+
+transformers
+datasets
+accelerate
+peft
+trl
+bitsandbytes
+sentencepiece
+safetensors
+scipy
+numpy
+pandas
+scikit-learn
+tqdm
+huggingface-hub
+
+# ----------------------------
+# Optional API (only if serving model)
+# ----------------------------
+fastapi
+uvicorn
+pydantic
+python-dotenv
+requests
+
+# ----------------------------
+# Optional Database
+# ----------------------------
+sqlalchemy
+psycopg2-binary
+torch
+transformers
+datasets
+peft
+trl
+accelerate
+bitsandbytes
+sentencepiece
+pandas
+scikit-learn
+fastapi
+uvicorn
+python-dotenv
+requests
+sqlalchemy
+psycopg2-binary

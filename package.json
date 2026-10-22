@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "axios": "^1.18.1",
+    "lucide-react": "^1.22.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "name": "llama_blender_trainning",
+  "version": "1.0.0",
+  "description": "A React-based frontend user interface and a FastAPI backend with PostgreSQL session tracking to manage and process user prompts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.5.2",
+    "postcss": "^8.5.16",
+    "tailwindcss": "^4.3.1"
+  }
+}

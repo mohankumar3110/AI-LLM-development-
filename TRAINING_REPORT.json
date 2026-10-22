@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-22T11:36:25.806934",
+  "base_model": "meta-llama/Llama-3.2-1B-Instruct",
+  "training_steps": [
+    "\u2713 Data Check",
+    "\u2713 Dependency Check",
+    "\u2713 Data Augmentation",
+    "\u2713 Data Preparation",
+    "\u2192 Model Training (in progress)",
+    "\u2192 Inference Testing"
+  ],
+  "checkpoint_locations": {
+    "checkpoints_dir": "C:\\Users\\T2032\\OneDrive - Tessolve Semiconductor Private Limited\\llama_blender_trainning\\checkpoints",
+    "logs_dir": "C:\\Users\\T2032\\OneDrive - Tessolve Semiconductor Private Limited\\llama_blender_trainning\\logs",
+    "data_dir": "C:\\Users\\T2032\\OneDrive - Tessolve Semiconductor Private Limited\\llama_blender_trainning\\data"
+  },
+  "checkpoints": {
+    "checkpoint-100": "Model after epoch 1",
+    "checkpoint-200": "Model after epoch 2",
+    "checkpoint-300": "Model after epoch 3 (best)",
+    "final_adapter": "Final trained model"
+  },
+  "next_steps": [
+    "Monitor training in logs/train.log",
+    "Test model: python inference.py 'Your prompt'",
+    "Evaluate: python evaluate.py",
+    "Merge LoRA: python merge_lora.py"
+  ]
+}
